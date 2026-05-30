@@ -1,6 +1,6 @@
 # Cybersecurity-Task-1-Port-Scanning
 
-3# Task 1 - Local Network Port Scan
+## Task 1 - Local Network Port Scan
 
 ## Objective
 To identify open ports on devices connected to the local network using Nmap.

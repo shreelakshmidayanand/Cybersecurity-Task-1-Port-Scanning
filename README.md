@@ -44,6 +44,15 @@ Open ports detected:
 - 3306/tcp (MySQL)
 - 3580/tcp
 
+## Potential Security Risks
+
+- Port 135 (MSRPC): May be targeted if Windows services have vulnerabilities.
+- Port 139 (NetBIOS): Can expose file-sharing information on the network.
+- Port 445 (Microsoft-DS): Common target for SMB and ransomware attacks.
+- Port 3306 (MySQL): Database access should be restricted to trusted users.
+- Open ports increase the attack surface and should be monitored regularly.
+
+  
 ## Learning Outcome
 
 - Learned Nmap installation and usage.
